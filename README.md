@@ -2,6 +2,7 @@
 
 Код для создании таблицы в базе данных для работы:
 
+<code>
 CREATE TABLE `time_booking` (
 	`hour` INT(11) NOT NULL DEFAULT 0,
 	`date` DATE NOT NULL,
@@ -10,3 +11,4 @@ CREATE TABLE `time_booking` (
 COLLATE='utf8mb4_general_ci'
 ENGINE=InnoDB
 ;
+</code>
